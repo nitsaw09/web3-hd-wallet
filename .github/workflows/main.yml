@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -22,3 +22,6 @@ jobs:
         
       - name: run test
         run: npm run test
+
+      - name: build
+        run: npm run build
