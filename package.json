@@ -19,7 +19,9 @@
     "hd",
     "wallet",
     "mnemonic",
-    "provider"
+    "provider",
+    "web3.js",
+    "ethereumjs-wallet"
   ],
   "homepage": "https://github.com/nitsaw09/web3-hd-wallet#readme",
 	"repository": {
