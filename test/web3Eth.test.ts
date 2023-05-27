@@ -1,4 +1,3 @@
-import Web3 from 'web3';
 import { Web3Eth, IWeb3Encrypt, IWeb3Decrypt } from '../src/web3Eth';
 
 describe('Web3Eth', () => {
