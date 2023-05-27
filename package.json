@@ -1,6 +1,6 @@
 {
   "name": "web3-hd-wallet",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ethereum HD Wallet",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -21,6 +21,11 @@
     "mnemonic",
     "provider"
   ],
+  "homepage": "https://github.com/nitsaw09/web3-hd-wallet#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nitsaw09/web3-hd-wallet.git"
+	},
   "dependencies": {
     "bip39": "^3.1.0",
     "ethereumjs-wallet": "^1.0.2",
