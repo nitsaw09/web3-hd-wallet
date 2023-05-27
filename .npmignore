@@ -1,0 +1,8 @@
+node_modules
+lib
+.eslintignore
+.eslintrc.js
+.gitignore
+yarn.lock
+coverage
+test
