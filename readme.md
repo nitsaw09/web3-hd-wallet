@@ -1,16 +1,14 @@
 # Web3 HD Wallet
----
 Web3 HD Wallet is a package that provides functionality to generate HD wallets and encrypt/decrypt private keys.
 
 ## Installation
----
 To install the package, use npm:
 
 ```bash
 npm install web3-hd-wallet --save
 ```
 ## Usage
----
+
 ### HD Wallet 
 ```javascript
 const { HdWallet } = require('web3-hd-wallet');
@@ -47,7 +45,7 @@ console.log('Decrypted Wallet:', decryptedWallet);
 
 ```
 ## API
----
+
 ### HD Wallet Methods
 - ```generateMnemonic()```: string: Generates a random mnemonic phrase.
 - ```generateHDWallets(params: IHdWallet)```: Array<{ address: string, privateKey: string }>: Generates multiple HD wallets based on the provided parameters. The params object should have the following properties:
